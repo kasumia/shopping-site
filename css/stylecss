@@ -1,0 +1,229 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #f9f8f6;
+  font: 16px/20px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",'メイリオ',Meiryo,Helvetica,Arial,Sans-Serif;
+  color: #666; }
+
+/* 初期化し損ねている余計な余白を解除 */
+form, h1, h2, h3, h4, dl, dt, dd, ul, li {
+  margin: 0;
+  padding: 0; }
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto; }
+
+#contents {
+  float: left;
+  width: 720px; }
+
+nav {
+  float: left;
+  width: 160px;
+  margin-left: 20px; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/*----------header--------------*/
+header {
+  padding: 20px 0 0;
+  margin-bottom: 20px; }
+
+#LOGO {
+  float: left; }
+
+#LOGO img {
+  width: 141px; }
+
+@media (min-width: 641px) {
+  #SP_MENU {
+    display: none; } }
+#PC_MENU {
+  display: block; }
+
+.g_navi {
+  float: right;
+  padding: 17px 0 0; }
+  .g_navi li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 4px;
+    font-weight: bold; }
+
+header.u-max-full-width {
+  float: left; }
+
+header li, header li * {
+  vertical-align: bottom; }
+
+/*----------contents--------------*/
+.banner {
+  margin: 45px auto; }
+
+.flexbox {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.items {
+  background: #fff;
+  width: 30%;
+  height: auto;
+  padding: 6px;
+  margin: 5px;
+  text-align: center; }
+
+p {
+  text-align: left; }
+
+.guide {
+  background: #fff;
+  width: 320px;
+  height: auto;
+  padding: 15px;
+  margin: 5px;
+  margin-bottom: 50px; }
+  .guide ul {
+    padding: 0px; }
+    .guide ul li {
+      list-style-type: none;
+      font-size: 1.5rem;
+      color: #887f69; }
+
+/*------sidebar------ */
+.box-side-form {
+  background: #fff;
+  padding: 25px 15px;
+  width: 188px;
+  height: 42px; }
+
+.box-side-form input {
+  background-color: #ecebe8;
+  height: 30px;
+  width: 178px;
+  border: none; }
+
+.btn_side_section {
+  display: inline-block;
+  width: 218px;
+  height: 40px;
+  background: #887f69;
+  padding: auto;
+  margin-top: 8px;
+  cursor: pointer; }
+
+.sp_menu_toggle {
+  padding-left: 0px; }
+
+.sp_menu_toggle li {
+  width: 218px;
+  height: 40px;
+  background-color: #fff;
+  display: block;
+  margin: 2px auto;
+  text-decoration: none;
+  list-style: none; }
+
+.side_menu {
+  margin: auto;
+  padding: 5px; }
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 40px;
+  height: 3px;
+  margin: 5px 7px;
+  background: #D6D6D6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease; }
+
+.owl-theme .owl-dots .owl-dot:active span {
+  background: #b0b0b0; }
+
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #9d1a2d; }
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+  text-align: left;
+  -webkit-tap-highlight-color: transparent; }
+
+.nav_box {
+  background: #fff;
+  padding: 10px 5px;
+  width: 208px;
+  height: auto;
+  margin: 0;
+  text-align: center; }
+  .nav_box img {
+    margin: auto; }
+
+.about {
+  background: #fff;
+  margin: 0px auto;
+  text-align: center;
+  padding: 6px; }
+
+/*------footer------ */
+footer {
+  text-align: center; }
+  footer p {
+    text-align: center;
+    margin: 30px; }
+    footer p .copy {
+      margin: 30px;
+      text-align: center;
+      color: #887f69; }
+  footer li {
+    margin: auto 15px;
+    list-style: none;
+    display: inline-block; }
+
+#PAGE_TOP {
+  text-align: right;
+  margin: 20px auto; }
+
+/*---------------sp_design_top---------------*/
+@media (max-width: 640px) {
+  #PC_MENU {
+    display: none; }
+
+  #LOGO img {
+    width: 110px; }
+
+  /* header部分の設定 */
+  #LOGO {
+    width: 100%;
+    text-align: center; }
+
+  #LOGO img {
+    margin-top: 15px; }
+
+  /* ヘッダナビの設定 */
+  #SP_MENU {
+    text-align: center; }
+
+  #SP_MENU li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 4px;
+    font-size: 2.4rem; }
+
+  #SP_MENU li, #SP_MENU li * {
+    vertical-align: bottom; }
+
+  /* PageTopボタンの設定 */
+  #PAGE_TOP {
+    text-align: center; }
+
+  /* Footerナビの設定 */
+  footer li {
+    margin: 0 1px; } }
+
+/*# sourceMappingURL=stylecss.map */
